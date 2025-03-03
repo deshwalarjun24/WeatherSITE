@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+        <video autoplay loop muted playsinline class="video" src="Space.mp4"></video>
+    
+    <div class="tag">
+        <img src="Moon.webp" alt="">
+       
+    </div>
+    <div class="container">
+        <h1>WELCOME,to live WeatherSite</h1>
+        
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button onclick="getWeatherByCity()">Search</button>
+        </div>
+        <div class="curr_locaion">
+        <button class="location-btn" onclick="getUserLocation()">Use Current Location</button>
+         
+    </div> 
+        <div id="weatherInfo"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
